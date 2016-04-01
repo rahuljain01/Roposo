@@ -7,25 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56FC8CBA8A3BD5F587BB476A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A74D6A65DAE6B54CEAAC76C /* libPods.a */; };
 		E825B2C81CAB9CF4005BDE22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E825B2C71CAB9CF4005BDE22 /* main.m */; };
 		E825B2CB1CAB9CF4005BDE22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E825B2CA1CAB9CF4005BDE22 /* AppDelegate.m */; };
-		E825B2CE1CAB9CF4005BDE22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E825B2CD1CAB9CF4005BDE22 /* ViewController.m */; };
+		E825B2CE1CAB9CF4005BDE22 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E825B2CD1CAB9CF4005BDE22 /* TableViewController.m */; };
 		E825B2D11CAB9CF4005BDE22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E825B2CF1CAB9CF4005BDE22 /* Main.storyboard */; };
 		E825B2D31CAB9CF4005BDE22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E825B2D21CAB9CF4005BDE22 /* Assets.xcassets */; };
 		E825B2D61CAB9CF4005BDE22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E825B2D41CAB9CF4005BDE22 /* LaunchScreen.storyboard */; };
+		E8301EBC1CAC21B300DDE190 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = E8301EBB1CAC21B300DDE190 /* Data.json */; };
+		E8301EBF1CAC220400DDE190 /* JsonDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E8301EBE1CAC220400DDE190 /* JsonDataParser.m */; };
+		E8301EC31CAC22A400DDE190 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = E8301EC21CAC22A400DDE190 /* User.m */; };
+		E8301EC61CAC239400DDE190 /* UserList.m in Sources */ = {isa = PBXBuildFile; fileRef = E8301EC51CAC239400DDE190 /* UserList.m */; };
+		E8301EC91CAC23C600DDE190 /* Story.m in Sources */ = {isa = PBXBuildFile; fileRef = E8301EC81CAC23C600DDE190 /* Story.m */; };
+		E8301ECD1CAC268B00DDE190 /* StoryList.m in Sources */ = {isa = PBXBuildFile; fileRef = E8301ECC1CAC268B00DDE190 /* StoryList.m */; };
+		E8301ED01CAC3FEE00DDE190 /* RoposoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E8301ECF1CAC3FEE00DDE190 /* RoposoTableViewCell.m */; };
+		E8601F081CAD6920008B5D4F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8601F071CAD6920008B5D4F /* DetailViewController.m */; };
+		E8601F0E1CADE935008B5D4F /* TableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E8601F0D1CADE935008B5D4F /* TableViewDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A74D6A65DAE6B54CEAAC76C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF0B5370A767D70BC3E519A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E71E74E0B4998D45468CCF77 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E825B2C31CAB9CF4005BDE22 /* Roposo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roposo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E825B2C71CAB9CF4005BDE22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E825B2C91CAB9CF4005BDE22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E825B2CA1CAB9CF4005BDE22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E825B2CC1CAB9CF4005BDE22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E825B2CD1CAB9CF4005BDE22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E825B2CC1CAB9CF4005BDE22 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		E825B2CD1CAB9CF4005BDE22 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		E825B2D01CAB9CF4005BDE22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E825B2D21CAB9CF4005BDE22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E825B2D51CAB9CF4005BDE22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E825B2D71CAB9CF4005BDE22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8301EBB1CAC21B300DDE190 /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		E8301EBD1CAC220400DDE190 /* JsonDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonDataParser.h; sourceTree = "<group>"; };
+		E8301EBE1CAC220400DDE190 /* JsonDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonDataParser.m; sourceTree = "<group>"; };
+		E8301EC11CAC22A400DDE190 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		E8301EC21CAC22A400DDE190 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		E8301EC41CAC239400DDE190 /* UserList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserList.h; sourceTree = "<group>"; };
+		E8301EC51CAC239400DDE190 /* UserList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserList.m; sourceTree = "<group>"; };
+		E8301EC71CAC23C600DDE190 /* Story.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Story.h; sourceTree = "<group>"; };
+		E8301EC81CAC23C600DDE190 /* Story.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Story.m; sourceTree = "<group>"; };
+		E8301ECB1CAC268B00DDE190 /* StoryList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryList.h; sourceTree = "<group>"; };
+		E8301ECC1CAC268B00DDE190 /* StoryList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryList.m; sourceTree = "<group>"; };
+		E8301ECE1CAC3FEE00DDE190 /* RoposoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoposoTableViewCell.h; sourceTree = "<group>"; };
+		E8301ECF1CAC3FEE00DDE190 /* RoposoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoposoTableViewCell.m; sourceTree = "<group>"; };
+		E8601F061CAD6920008B5D4F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E8601F071CAD6920008B5D4F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E8601F0C1CADE935008B5D4F /* TableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDataSource.h; sourceTree = "<group>"; };
+		E8601F0D1CADE935008B5D4F /* TableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +63,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56FC8CBA8A3BD5F587BB476A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59DF74FE1DAF739A9F57B1FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E71E74E0B4998D45468CCF77 /* Pods.debug.xcconfig */,
+				3DF0B5370A767D70BC3E519A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C02F6611F9245303FB1E52B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A74D6A65DAE6B54CEAAC76C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E825B2BA1CAB9CF4005BDE22 = {
 			isa = PBXGroup;
 			children = (
 				E825B2C51CAB9CF4005BDE22 /* Roposo */,
 				E825B2C41CAB9CF4005BDE22 /* Products */,
+				59DF74FE1DAF739A9F57B1FC /* Pods */,
+				C02F6611F9245303FB1E52B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +108,13 @@
 		E825B2C51CAB9CF4005BDE22 /* Roposo */ = {
 			isa = PBXGroup;
 			children = (
+				E8601F0B1CADE8F7008B5D4F /* Utility */,
+				E8601F0A1CADE8D5008B5D4F /* ViewController */,
+				E8601F091CADE8AE008B5D4F /* View */,
+				E8301EC01CAC227E00DDE190 /* Model */,
+				E8301EBB1CAC21B300DDE190 /* Data.json */,
 				E825B2C91CAB9CF4005BDE22 /* AppDelegate.h */,
 				E825B2CA1CAB9CF4005BDE22 /* AppDelegate.m */,
-				E825B2CC1CAB9CF4005BDE22 /* ViewController.h */,
-				E825B2CD1CAB9CF4005BDE22 /* ViewController.m */,
 				E825B2CF1CAB9CF4005BDE22 /* Main.storyboard */,
 				E825B2D21CAB9CF4005BDE22 /* Assets.xcassets */,
 				E825B2D41CAB9CF4005BDE22 /* LaunchScreen.storyboard */,
@@ -79,6 +132,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E8301EC01CAC227E00DDE190 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E8301EC11CAC22A400DDE190 /* User.h */,
+				E8301EC21CAC22A400DDE190 /* User.m */,
+				E8301EC41CAC239400DDE190 /* UserList.h */,
+				E8301EC51CAC239400DDE190 /* UserList.m */,
+				E8301EC71CAC23C600DDE190 /* Story.h */,
+				E8301EC81CAC23C600DDE190 /* Story.m */,
+				E8301ECB1CAC268B00DDE190 /* StoryList.h */,
+				E8301ECC1CAC268B00DDE190 /* StoryList.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E8601F091CADE8AE008B5D4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E8301ECE1CAC3FEE00DDE190 /* RoposoTableViewCell.h */,
+				E8301ECF1CAC3FEE00DDE190 /* RoposoTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E8601F0A1CADE8D5008B5D4F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E825B2CC1CAB9CF4005BDE22 /* TableViewController.h */,
+				E825B2CD1CAB9CF4005BDE22 /* TableViewController.m */,
+				E8601F061CAD6920008B5D4F /* DetailViewController.h */,
+				E8601F071CAD6920008B5D4F /* DetailViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		E8601F0B1CADE8F7008B5D4F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E8301EBD1CAC220400DDE190 /* JsonDataParser.h */,
+				E8301EBE1CAC220400DDE190 /* JsonDataParser.m */,
+				E8601F0C1CADE935008B5D4F /* TableViewDataSource.h */,
+				E8601F0D1CADE935008B5D4F /* TableViewDataSource.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E825B2DA1CAB9CF4005BDE22 /* Build configuration list for PBXNativeTarget "Roposo" */;
 			buildPhases = (
+				641E3DAFDD677E2771D9A815 /* Check Pods Manifest.lock */,
 				E825B2BF1CAB9CF4005BDE22 /* Sources */,
 				E825B2C01CAB9CF4005BDE22 /* Frameworks */,
 				E825B2C11CAB9CF4005BDE22 /* Resources */,
+				7EB1013BA0804D83B92DF315 /* Embed Pods Frameworks */,
+				834DF6161950AE6885E1C328 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,17 +241,74 @@
 				E825B2D61CAB9CF4005BDE22 /* LaunchScreen.storyboard in Resources */,
 				E825B2D31CAB9CF4005BDE22 /* Assets.xcassets in Resources */,
 				E825B2D11CAB9CF4005BDE22 /* Main.storyboard in Resources */,
+				E8301EBC1CAC21B300DDE190 /* Data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		641E3DAFDD677E2771D9A815 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7EB1013BA0804D83B92DF315 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		834DF6161950AE6885E1C328 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E825B2BF1CAB9CF4005BDE22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E825B2CE1CAB9CF4005BDE22 /* ViewController.m in Sources */,
+				E8301EC31CAC22A400DDE190 /* User.m in Sources */,
+				E8301EBF1CAC220400DDE190 /* JsonDataParser.m in Sources */,
+				E8601F0E1CADE935008B5D4F /* TableViewDataSource.m in Sources */,
+				E8301EC61CAC239400DDE190 /* UserList.m in Sources */,
+				E8301ECD1CAC268B00DDE190 /* StoryList.m in Sources */,
+				E8301EC91CAC23C600DDE190 /* Story.m in Sources */,
+				E8601F081CAD6920008B5D4F /* DetailViewController.m in Sources */,
+				E8301ED01CAC3FEE00DDE190 /* RoposoTableViewCell.m in Sources */,
+				E825B2CE1CAB9CF4005BDE22 /* TableViewController.m in Sources */,
 				E825B2CB1CAB9CF4005BDE22 /* AppDelegate.m in Sources */,
 				E825B2C81CAB9CF4005BDE22 /* main.m in Sources */,
 			);
@@ -263,6 +422,7 @@
 		};
 		E825B2DB1CAB9CF4005BDE22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E71E74E0B4998D45468CCF77 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Roposo/Info.plist;
@@ -274,6 +434,7 @@
 		};
 		E825B2DC1CAB9CF4005BDE22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DF0B5370A767D70BC3E519A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Roposo/Info.plist;
@@ -302,6 +463,7 @@
 				E825B2DC1CAB9CF4005BDE22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
