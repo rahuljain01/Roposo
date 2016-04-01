@@ -62,6 +62,21 @@
     }
     
 }
+- (IBAction)followButtonPressed:(UIButton *)sender {
+    
+    self.story.user.isFollowing = !self.story.user.isFollowing;
+    
+    
+    if (self.story.user.isFollowing) {
+        [sender setTitle:@"following" forState:UIControlStateNormal];
+    }else{
+        [sender setTitle:@"follow" forState:UIControlStateNormal];
+    }
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"refreshTableView" object:nil];
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

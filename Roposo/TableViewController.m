@@ -45,6 +45,12 @@
     
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
+    
+     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reloadTableView) name:@"refreshTableView" object:nil];
+}
+
+-(void)reloadTableView{
+    [self.tableView reloadData];
 }
 
 -(void)makeNavigationBarTransparent{
